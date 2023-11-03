@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+<style>
+    .topLeft , .topRight , .side{
+        width:200px;
+    }
+    .left , .right{  width:400px; }
+    .topMiddle{ width:600px; }
+    .top td{
+        border:3px solid red;
+    }
+    .content td{
+        border:1px solid #000000;
+    }
+    .top{ height:200px;}
+    .content{ height:600px;}
+    
+    .left{ background-color: orange;}
+    .right{ background: limegreen;}
+    .side{ background-color: khaki;}
+
+    .box{ 
+        border-collapse: collapse; 
+        width:1000px; 
+        height:800px;
+    }
+
+</style>
+
+</head>
+<body>
+    
+    <table class="box">
+        <tr class="top">
+            <td class="topLeft"></td>
+            <td class="topMiddle" colspan="3"></td>
+            
+            <td class="topRight"></td>
+        </tr>
+        <tr class="content">
+            <td class="left" colspan="2"></td>
+            
+            <td class="right" colspan="2"></td>
+            
+            <td class="side"></td>
+        </tr>
+    </table>
+
+</body>
+</html>
