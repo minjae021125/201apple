@@ -6,15 +6,21 @@
     <title>Document</title>
 
 <style>
-    .topLeft , .topRight , .side{
+
+    /* .은  클래스를 의미한다.   
+    html태그에 부여한 class 명이 A 라면   .A{    }  로 작성해야 한다.
+    여러개 클래스를 한번에 선택하여 스타일을 적용하려면
+     클래스명 사이사이에  , 를 넣어서 표현한다.
+    */
+    .topLeft , .topRight , .side{  /* topLeft, topRight, side 클래스들을 모두 선택 */
         width:200px;
     }
-    .left , .right{  width:400px; }
+    .left , .right{  width:400px; } /* left ,right 클래스들을 모두선택하여 너비적용 */
     .topMiddle{ width:600px; }
-    .top td{
+    .top td{   /*  클래스명이 top인 tr 밑에 있는 모든 td를 선택 하여 스타일 적용 */
         border:3px solid red;
     }
-    .content td{
+    .content td{ /* 클래스명이 content인 tr 밑에 있는 모든 td를 선택하여 스타일 적용 */
         border:1px solid #000000;
     }
     .top{ height:200px;}
