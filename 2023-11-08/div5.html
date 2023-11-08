@@ -38,6 +38,41 @@
         .menu:hover .sub{
             display:block;
         }
+
+        #main{
+            width:1000px;
+            margin:0 auto;
+        }
+
+        .image{
+            width:400px;
+            position:relative;
+            right:0;
+            top:0;
+            display:inline-block;
+            transition-property: width, right,top;
+            transition-duration: 1s , 1s,1s;
+        }
+        .image img{
+            width:100%;
+        }
+        .imgBox{
+            text-align: center;
+            height:300px;
+            margin-bottom:100px;
+        }
+        .imgBox:hover .image{
+            width:200px;
+            
+            right:150px;
+            top:75px;
+        }
+        .detail{
+            display:none;
+        }
+        .imgBox:hover .detail{
+            display:inline-block;
+        }
     </style>
 </head>
 <body>
@@ -46,6 +81,11 @@
         <div class="imgBox">
             <div class="image">
                 <img src="https://loremflickr.com/400/300/perfume?random=1" alt="뷰티1">
+            </div>
+            <div class="detail">
+                차원이 다른 향수<br>
+                주위에 사람들이 다가오지 못하는 향<br>
+                혼자만의 시간을 가질 수 있습니다.
             </div>
         </div>
         <div class="imgBox">
