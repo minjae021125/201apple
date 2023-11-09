@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#wrap{
+    width:1500px;
+    margin:0 auto;
+    position:relative;
+    
+}
+#header{
+    width: 900px;
+    padding:20px 0;
+    position:sticky;
+    z-index: 500;
+    background-color: #fff;
+}
+#nav{
+    width: 1000px ;
+    position: relative;
+}
+.title{
+    position:relative;
+    width:100%;
+    text-align: center;
+}
+.menuWrap{
+    font-size: 30px;
+}
+#menu{
+    width: 500px;
+}
+.button{
+    text-align: right;
+    font-size: 25px;
+    margin-top:-32px;
+}
+.button div{
+    display: inline;
+    
+}
+#main{
+    width: 1000px;
+    padding:100px 0;
+    z-index: 500px ;
+}
+.siteDetail{
+    
+}
+.freeSign{
+    
+}
+.devTool{
+    
+}
+.card{
+    width: 1000;
+    text-align: right ;
+}
+.learn{
+    width: 1000px;
+    text-align: right;
+}
+#foot{
+    width: 1500;
+    text-align: ;
+}
+h3{
+
+}
+

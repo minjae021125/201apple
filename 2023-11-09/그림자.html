@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        #box1{
+            width: 200px;
+            height: 200px;
+            background: #a4a434;
+            box-shadow: 20px 5px 5px black;
+        /*값순서 : 좌우 상하 그림자흐림*/
+        }
+        #box2{
+            width: 200px; height: 200px;
+            background-color: gray;
+            box-shadow: 5px 5px 2px #555;
+        }
+        #box3{
+            width: 200px; height: 400px;
+            margin-top: 100px;
+            box-shadow: 3px 2px 4px gray;
+            border-radius: 10px;
+        }
+        .image{
+            width: 100px; height: 400;
+            overflow: hidden;
+        }
+        .image img{  height: 200px;  }
+        .detall{
+            border-top:3.5px solid rgb(53,157,223) ;
+            text-align: center;
+            padding: 15px 0;
+            position: relative ;
+        }
+        .cap{
+            position: absolute ;
+            width: 80px;
+            background: rgb(53,157,223);
+            line-height: 30px;
+            border-radius: 15px;
+            color:  #fff;
+            left: 60px;
+            top: -16.75px;
+        }
+    </style>
+
+</head>
+<body>
+    
+    <div id="box1"></div>
+    <div id="box2"></div>
+    <div id="box3">
+        <div class="image">
+            <img src="./static/images/다운로드.jpg" alt="자연경관">
+        </div>
+        <div>
+            <div class="detail">
+            노을진 설경
+        </div>
+    </div>
+
+</html>

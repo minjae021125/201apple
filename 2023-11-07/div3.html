@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style> 
+        #box1{
+            width: 500px;
+            height: 500px;
+            background: pink;
+            margin-top: 100px;
+
+        }
+        #child1{
+            width: 100px;
+            height: 50px;
+            background: green;
+            position:absolute;
+            left: 150px;
+            top: 30px;
+        }
+        #child2{
+            width:100px;
+            height: 50px;
+            background: brown;
+            position: relative;
+            top: 100px;
+            right: 50px;
+        }
+        
+    </style>
+</head>
+<body>
+    <div id="box1">
+        <div id="child1"></div>
+        <div id="child2"></div>
+        <div id="topButton"></div>
+        <div id="meun"></div>
+    </div>
+
+    <!-- position
+    position : 위치, 페이지에서해당태그를배치하는방법
+    position 값
+        -position:static; 기본적으로 태그가 가지고 있는값
+        -position: relatve; 자신이 처음 생성된 위치를 기준으로
+                            top, right, left, bottom 방향으로 이동이가능하다.
+                            기준점에서 어디든 이동은 가능하다.
+                            relative일때 기준점을 중심으로 이동이 되기때문에
+                            right, bottom 사용시 주의해야한다.
+                            기준점에서 right, bottom 이동이된다.
+        -position: absolute; 상위태그(부모, 조상태그)를 기준으로 이동
+                            상위태그 들중에 position(static 제외) 값을
+                            가진태그가 기준이 된다.
+                            다른 태그에 영향을 주지 않는다.                        
+    -->
+
+</body>
+</html>
